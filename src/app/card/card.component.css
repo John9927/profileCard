@@ -27,8 +27,8 @@
 
 .card {
   background: white;
-  width: 349px;
-  height: 360px;
+  width: 347px;
+  height: 365px;
   position: absolute;
   border-radius: 10px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
@@ -70,13 +70,13 @@
 
 .card__name {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .card__age {
   margin-left: 8px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   color: hsl(0, 0%, 59%);
 }
 
@@ -84,7 +84,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   color: hsl(0, 0%, 59%);
 }
@@ -111,12 +111,12 @@ hr {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .card__social__label {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   color: hsl(0, 0%, 59%);
 }
