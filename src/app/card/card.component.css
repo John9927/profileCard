@@ -66,6 +66,7 @@
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  color: hsl(229, 23%, 23%);
 }
 
 .card__name {
@@ -113,6 +114,7 @@ hr {
   text-align: center;
   font-size: 17px;
   font-weight: bold;
+  color: hsl(229, 23%, 23%);
 }
 
 .card__social__label {
