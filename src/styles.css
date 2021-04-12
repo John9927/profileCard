@@ -18,3 +18,7 @@ body {
   flex-direction: column;
   font-size: 24px;
 }
+
+li {
+  list-style: none;
+}
