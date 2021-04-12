@@ -1,7 +1,17 @@
+import { NgClassComponent } from './ng-class/ng-class.component';
+import { CardComponent } from './card/card.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { NgIfComponent } from './ng-if/ng-if.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: CardComponent },
+  { path: 'ngIf', component: NgIfComponent },
+  { path: 'ngStyle', component: NgStyleComponent },
+  { path: 'ngClass', component: NgClassComponent },
+  { path: 'card', component: CardComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

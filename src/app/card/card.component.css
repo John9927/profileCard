@@ -17,22 +17,6 @@
 }
 
 /* Card */
-.card__container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card {
-  background: white;
-  width: 347px;
-  height: 365px;
-  position: absolute;
-  border-radius: 10px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-}
 
 .card__banner {
   background: url("./../../assets/images/bg-pattern-card.svg") no-repeat;
@@ -125,7 +109,7 @@ hr {
 
 @media screen and (max-width: 376px) {
   .card {
-    width: 90%;
+    width: 90% !important;
   }
 
   .image__top {

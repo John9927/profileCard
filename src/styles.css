@@ -12,3 +12,9 @@ body {
   margin: unset;
   box-sizing: border-box;
 }
+
+.href {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}

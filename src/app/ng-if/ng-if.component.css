@@ -1,0 +1,11 @@
+* {
+  font-size: 24px;
+}
+
+.label__ngIf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+

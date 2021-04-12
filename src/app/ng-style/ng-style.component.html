@@ -1,0 +1,17 @@
+<div appContainerCard>
+  <div appCard>
+    <span class="label__ngIf">
+      <div class="href">
+        <a href="card">Card</a>
+        <a href="ngClass">ngClass</a>
+        <a href="ngStyle">ngStyle</a>
+
+        <ul *ngFor="let person of people">
+          <li [appNgstyle]="{'font-size.px':24}" [style.color]="getColor(person.country)">
+            {{ person.name }} ({{ person.country }})
+          </li>
+        </ul>
+      </div>
+    </span>
+  </div>
+</div>

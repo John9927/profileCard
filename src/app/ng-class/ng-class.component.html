@@ -1,0 +1,16 @@
+<div appContainerCard>
+  <div appCard>
+    <span class="label__ngIf">
+      <div class="href">
+        <a href="ngIf">NgIf</a>
+        <a href="card">Card</a>
+        <a href="ngStyle">ngStyle</a>
+      </div>
+      <ul *ngFor="let person of people">
+        <li [appNgClass]="{'text-success': true}">
+        {{ person.name }} ({{ person.country }})
+        </li>
+      </ul>
+    </span>
+  </div>
+</div>
