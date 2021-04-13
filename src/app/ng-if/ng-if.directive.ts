@@ -15,9 +15,9 @@ export class NgIfDirective {
   @Input()
   set AppNgIf(val) {
     if(val) {
-      this.viewContainer.createEmbeddedView(this.templateRef);
+      this.viewContainer.createEmbeddedView(this.templateRef); //Qui non fa altro che associare la proprietà templateRef al metodo createEmbeddedView
     } else {
-      this.viewContainer.clear();
+      this.viewContainer.clear(); //In questo caso ha distrutto la vista da questo Container
     }
   }
 }

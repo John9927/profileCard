@@ -1,3 +1,4 @@
+import { GridComponent } from './grid/grid.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { CardComponent } from './card/card.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
@@ -7,10 +8,11 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 
 const routes: Routes = [
   { path: '', component: CardComponent },
+  { path: 'card', component: CardComponent },
   { path: 'ngIf', component: NgIfComponent },
   { path: 'ngStyle', component: NgStyleComponent },
   { path: 'ngClass', component: NgClassComponent },
-  { path: 'card', component: CardComponent }
+  { path: 'grid', component: GridComponent }
 ];
 
 @NgModule({

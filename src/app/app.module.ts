@@ -12,6 +12,8 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgIfDirective } from './ng-if/ng-if.directive';
 import { CardDirective } from './card/card.directive';
 import { ContainerCardDirective } from './card/container-card.directive';
+import { GridComponent } from './grid/grid.component';
+import { GridDirective } from './grid/grid.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ContainerCardDirective } from './card/container-card.directive';
     NgIfComponent,
     NgIfDirective,
     CardDirective,
-    ContainerCardDirective
+    ContainerCardDirective,
+    GridComponent,
+    GridDirective
   ],
   imports: [
     BrowserModule,
